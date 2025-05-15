@@ -1,0 +1,39 @@
+Bruno 15/05/2025:
+
+1) primeramente arregle los erroes  ip.
+
+2) fama srl tiene su propio local resolver, con su gateaway y su dns
+
+3) agrego el DNS primario 67, (10.68.14.67) de fama SRL, para identificar equipos los nombro con sus  ultimos digitos de la ip
+
+creo su entidad "local.fama.com.ar" con ip 10.68.14.67 luego su NameServer(NS), "fama.com.ar" 
+
+creo su SOA con su respectiva informacion,
+
+replico el paso 3 pero para crear el dns SECUNDARIO 10.68.14.68
+
+4) Como se indica en el enuciado el server dns primerio y secundario, delegan el subdomio "logistica.fama.com.ar" por lo tanto creo el NS en estos servidores mencionados, con su respectivo A Record " dnslogistica.fama.com.ar"  10.68.14.69 
+
+5) realizo configuracion basica del servidor logistica (A record, ns, SOA)
+
+6) importante, registro en "a.dns.ar" el dominio "fama.com.ar" y " local.fama.com.ar con ip 10.68.14.65. (esto es para que nuestro dominio este en internet y se pueda hacer ping desde algun equipo por ejemplo)
+
+nota: no se porque no puedo hacer ping a " logistica.fama.com.ar " pero si a " dnslogistica.com.ar" lo mismo me pasa con " fama.com.ar" , con " local.fama.com.ar " si puedo hacer ping
+
+hay que solucionar esto?
+
+7) creo servidor http y cargo las 3 primeras paginas basicas
+
+8) creo segundo servidor http y cargo sus paginas
+
+9) creo servidor https y cargo sus paginas
+
+10)  creo el segundo servidor https pero por ahora no esta cumpliendo lo del " firewall" 
+
+d El otro servidor Web seguro contendrá la intranet 1 del sistema administrativo. Sólo se deberá 
+diseñar la página de inicio. Este servidor Web deberá ser accedido solamente por los clientes 
+del Departamento Administrativo; para esto se deberá configurar adecuadamente el firewall 
+local del servidor. 
+
+
+nota: las paginas se pueden modificar facilmente, algunos botones no andan, se pueden borrar y listo
