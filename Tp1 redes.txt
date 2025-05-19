@@ -1,0 +1,29 @@
+Servicios y equipamiento
+configuraciuon Inicial de los servidores y hacer paginas web(Bruno)
+.ar nos conoce(Bruno)
+
+preguntar que hacer con los nombres de un servidor primario y uno secundario 
+(revisar configuraciones) (cambiar serv dns1 y dns2) (Juli)
+
+
+configuracion dns de los servidores web(revisar que tiene cada cosa)
+agregar las direcciones al servidor dns (Mati)
+
+revisar rango del servidor dhcp (Mati)
+
+configuracion de correo electronico (Juli)
+
+firewall local del servidor del punto d
+
+configuracion de wifi
+
+dos impresoras de red
+
+sniffer
+
+agregar equipos conforme la distribucion de los pisos
+
+
+hacer reporte general
+
+hacer reportes individuales de contribucion
